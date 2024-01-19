@@ -2,12 +2,20 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The Fieldbase Electronic Planned Maintenance System (E-PMS) is a simple but powerful centralized system for vessel owners to keep track of their vessel and vessel equipment to make sure that they are compliant with regulations.
 
-## Getting Started
+![dashboard-screenshot.png](./guide/images/dashboard.png)
 
-Get started by getting signed up with you **Fieldbase Account**.
+The application comes with several modules.
 
-- Contact the Admin to get you signed up support@fbase.co.uk
+- [DASHBOARD](/docs/guide/Dashboard.md)
+- [CRM](/docs/guide/CRM.md)
+- [PMS](/docs/guide/PMS.md)
+- PIPELINE
+- SETTINGS
+- PROFILE
+- ACTION LOGS
+- CAMPAIGN
+- SETTINGS
