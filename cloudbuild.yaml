@@ -1,0 +1,8 @@
+steps:
+  - name: "node"
+    entrypoint: "yarn"
+  
+  - name: "node"
+    entrypoint: "yarn"
+    args:
+      - "build"
