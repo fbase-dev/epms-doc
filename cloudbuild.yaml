@@ -6,9 +6,9 @@ steps:
     entrypoint: "yarn"
     args:
       - "build"
-      
+
   - name: gcr.io/cloud-builders/gsutil
-    args: ["cp", "-r", "build", "gs://epms-doc.fbase.co.uk"]
+    args: ["-m", "rsync", "-d", "-r", "build", "gs://epms-doc.fbase.co.uk"]
 
   
 
