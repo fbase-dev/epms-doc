@@ -24,3 +24,7 @@ This module is used to send broadcast messages to all clients. These messages ar
 ## Manually dispatch a message
 
 You can manually dispatch a message whether the start time has arrived or whether the end time has elapsed. Just click the the dispatch button for the message you want to dispatch, and the message gets dispatched.
+
+## Delete a broadcast message
+
+To delete a broadcast message, just click the delete button of the message that you want to delete.
