@@ -18,11 +18,6 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "fbasegithub", // Usually your GitHub org/user name.
-  projectName: "epms-doc", // Usually your repo name.
-
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
@@ -73,12 +68,6 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          // { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
         ],
       },
       footer: {
@@ -112,12 +101,7 @@ const config = {
           },
           {
             title: "More",
-            items: [
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
+            items: [],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
