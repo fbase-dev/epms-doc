@@ -14,10 +14,10 @@ The dashboard is the first place you see when you first login to the E-PMS.
 
 At the top of the page you see some metrics.
 
-- Email Sent
-- Open Rate
-- Uncompliant Vessels vs Total
-- Deals Closed
+- Email Sent: Number of e-mails sent in current month VS previous month.
+- Open Rate: Number of e-mail open rate in current month VS previous month.
+- Uncompliant Vessels vs Total: Number of compliant vessels VS total vessels.
+- Deals Closed: Number of deals in current month VS previous month.
 
 You seed a chart below the top metrics. This chart shows the percentage of Compliant vessels in the system.
 
