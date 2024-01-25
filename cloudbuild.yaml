@@ -1,22 +1,20 @@
 steps:
-  - name: "node"
+  - name: "gcr.io/cloud-builders/yarn"
     id: "Installing dependencies"
-    entrypoint: "yarn"
-    args: ["install", "--frozen-lockfile"]
+    args: ["--frozen-lockfile"]
   
-  - name: "node"
+  - name: "gcr.io/cloud-builders/yarn"
     id: "Building app"
-    entrypoint: "yarn"
     args:
       - "build"
 
   - name: gcr.io/cloud-builders/gsutil
-    id: "Copy to Cloud storage"
+    id: "Copying to Cloud storage"
     args: ["-m", "rsync", "-d", "-r", "build", "gs://epms-doc.fbase.co.uk"]
 
   # Invalidate CDN cache for the Load balancer
   - name: gcr.io/cloud-builders/gcloud
-    id: "Invalidate CDN Cache"
+    id: "Invalidating CDN Cache"
     args: ["compute", "url-maps", "invalidate-cdn-cache", "epms-doc-lb", "--path", "/*", "--async"]
 
   
