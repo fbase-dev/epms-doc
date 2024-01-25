@@ -1,10 +1,12 @@
 steps:
-  - name: "gcr.io/cloud-builders/yarn"
+  - name: "node"
     id: "Installing dependencies"
+    entrypoint: "yarn"
     args: ["--frozen-lockfile"]
   
-  - name: "gcr.io/cloud-builders/yarn"
+  - name: "node"
     id: "Building app"
+    entrypoint: "yarn"
     args:
       - "build"
 
