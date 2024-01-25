@@ -14,3 +14,17 @@ tags:
 This is a module that lets you manage the users on the E-PMS.
 
 ![Manage Users](./images/manage-users.png)
+
+## Add a user
+
+To add the user:
+
+- Click the `Add User` button.
+- Enter the first name.
+- Enter the last name.
+- Enter the email.
+- If you want to limit the user to items from Nigeria/Angola, select the `Country Limited To`.
+- Select the role for the user.
+- Enter the user password.
+- Enter the user phone number.
+- Click the `Add User` button.
