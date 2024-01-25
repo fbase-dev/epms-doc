@@ -1,5 +1,9 @@
 ---
 description: Manage vessel sea areas
+tags:
+  - Sea Area
+  - Settings
+  - Compliance
 ---
 
 # Sea Area Settings
