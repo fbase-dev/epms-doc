@@ -45,4 +45,7 @@ Below is a list of available placeholders and what they result in the E-PMS:
 7. **BOOK_NOW_LINK**: This is a link that takes the client to a page where they can book maintenance for the upcoming service.
 8. **UPDATE_VESSEL_LINK**: This is a link that takes the client to a page for them to update their vessel in the case when they already booked or completed the survey.
 
-##
+## Update Email Times
+
+This will help you to set the time when emails should be dispatched everyday.
+![Email time setup](./images/email-time-setup.png)
