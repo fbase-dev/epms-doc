@@ -27,5 +27,3 @@ steps:
         "/*",
         "--async",
       ]
-
-logsBucket: "gs://cloudbuild_logs-cfa06e0b"
